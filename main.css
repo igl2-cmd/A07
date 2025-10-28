@@ -56,4 +56,62 @@ footer p {
 /* Step 29: Use CSS Class */
 .large {
     font-size: 125%;
+}/* Custom Property for Step 31, 32, and final value for Step 35 */
+:root {
+    --accent-color: #800000;
+}
+
+/* Steps 5-10: Default Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+    color: var(--accent-color); /* Updated for Step 32 */
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+    color: var(--accent-color); /* Updated for Step 32 */
+}
+
+h3 {
+    font-size: 105%;
+}
+
+/* Steps 11-14: Format Header */
+header h2 {
+    font-size: 170%;
+    text-indent: 30px;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+header img {
+    float: left;
+}
+
+/* Step 18: Format Main Content */
+main {
+    clear: left;
+}
+
+/* Step 21: Format Footer */
+footer p {
+    text-align: center;
+}
+
+/* Step 29: Use CSS Class */
+.large {
+    font-size: 125%;
 }
